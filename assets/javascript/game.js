@@ -32,7 +32,7 @@ function checkLetter(ltr){
 
     for(var i=0; i<letters.length; i++){
         //console.log("I IS : "+ i);
-        console.log("letter in array"+ letters[i])
+        console.log("Letter in array "+ letters[i])
         if(ltr === letters[i]){
             outcome = true;
             
@@ -45,7 +45,7 @@ function checkLetter(ltr){
         outcome = false;
         wins++;
         updateWins()
-        console.log("wins"+wins);
+        console.log("Wins "+wins);
         alert ("Holy Moly, You're Psychic!");
     }else alert ("You AIN'T NO PSYCHIC!")
     
